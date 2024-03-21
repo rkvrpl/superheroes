@@ -1,0 +1,23 @@
+.border{
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+	border-radius: 10px;
+	border: 5px ridge rgba(224, 158, 196, 0.615);
+	max-width: 29vw;
+	padding: 10px;
+	margin: 15px;
+}
+.name{
+	font-size: 1.5rem;
+	align-self: center;
+}
+.text{
+	font-size: 1.2rem;
+}
+.img{
+	max-width: 29vw;
+	align-self: center;
+	margin: 1vw;
+}

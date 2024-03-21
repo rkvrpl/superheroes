@@ -1,5 +1,4 @@
-
-
+import './App.css'
 import Hero from './components/Heroes/Heroes.jsx';
 import Header from './components/Header/Header.jsx'
 import heroes from './data/superheroes.json'
@@ -9,6 +8,7 @@ function App() {
   return( 
     <>
       <Header />
+      <div className='heroes'>
       {
         heroes.map((item) => {
           return( <Hero 
@@ -22,6 +22,7 @@ function App() {
           key={item.id}/>)
         })
       }
+      </div>
     </>
   )
 }
